@@ -1,0 +1,9 @@
+{
+  "name": "oa-app-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/oa-app-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["oa-app"],
+  "// targets": "to see all targets run: nx show project oa-app-e2e --web",
+  "targets": {}
+}
