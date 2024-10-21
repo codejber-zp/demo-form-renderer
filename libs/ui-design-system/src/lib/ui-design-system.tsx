@@ -1,9 +1,7 @@
-import styles from './ui-design-system.module.css';
-
 export function UiDesignSystem() {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to UiDesignSystem!</h1>
+    <div className="p-4 bg-gray-100">
+      <h1 className="text-3xl font-bold text-center text-blue-600">Welcome to UiDesignSystem!</h1>
     </div>
   );
 }
