@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo-form-renderer/ui-design-system": [
+        "libs/ui-design-system/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -21,6 +21,12 @@ importers:
         specifier: 6.11.2
         version: 6.11.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
+      '@babel/core':
+        specifier: ^7.14.5
+        version: 7.25.8
+      '@babel/preset-react':
+        specifier: ^7.14.5
+        version: 7.25.7(@babel/core@7.25.8)
       '@eslint/compat':
         specifier: ^1.1.1
         version: 1.2.1(eslint@9.13.0(jiti@1.21.6))
