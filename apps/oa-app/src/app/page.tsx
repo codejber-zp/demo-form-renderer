@@ -1,4 +1,4 @@
-import { UiDesignSystem } from '@demo-form-renderer/ui-design-system';
+import { UiHeader } from '@demo-form-renderer/ui-design-system';
 export default function Index() {
   /*
    * Replace the elements below with your own.
@@ -7,7 +7,7 @@ export default function Index() {
    */
   return (
     <div>
-      <UiDesignSystem />
+      <UiHeader />
     </div>
   );
 }

@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { UiDesignSystem } from './ui-design-system';
+import { UiHeader } from './ui-header';
 
 import { within } from '@storybook/testing-library';
 import { expect } from '@storybook/jest';
 
-const meta: Meta<typeof UiDesignSystem> = {
-  component: UiDesignSystem,
+const meta: Meta<typeof UiHeader> = {
+  component: UiHeader,
   title: 'UiDesignSystem',
 };
 export default meta;
-type Story = StoryObj<typeof UiDesignSystem>;
+type Story = StoryObj<typeof UiHeader>;
 
 export const Primary = {
   args: {},

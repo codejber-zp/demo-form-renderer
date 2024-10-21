@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import UiDesignSystem from './ui-design-system';
+import UiHeader from './ui-header';
 
 describe('UiDesignSystem', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<UiDesignSystem />);
+    const { baseElement } = render(<UiHeader />);
     expect(baseElement).toBeTruthy();
   });
 });
