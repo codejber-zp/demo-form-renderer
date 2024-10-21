@@ -20,6 +20,6 @@ describe('App', () => {
         <App />
       </BrowserRouter>
     );
-    expect(getByText(/Welcome oa-deprecated/gi)).toBeTruthy();
+    expect(getByText(/Hello old app!/gi)).toBeTruthy();
   });
 });

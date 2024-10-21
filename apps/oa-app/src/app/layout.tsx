@@ -1,4 +1,5 @@
 import './global.css';
+import { UiHeader } from '@demo-form-renderer/ui-design-system';
 
 export const metadata = {
   title: 'Welcome to oa-app',
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <UiHeader />
+        {children}
+      </body>
     </html>
   );
 }
